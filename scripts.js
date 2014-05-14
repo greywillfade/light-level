@@ -24,7 +24,7 @@ window.addEventListener('devicelight', function(e) {
 //Disco mode!
 /*window.setInterval(function() {
     var lightArr, lightVal;
-    lightArr = ['dim', 'normal', 'bright']; 
+    lightArr = ['dim', 'normal', 'washed']; 
     lightVal = lightArr[Math.floor(Math.random() * lightArr.length)];
     document.body.className = lightVal;
     document.getElementById("brightness").className = lightVal;
